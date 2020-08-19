@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<html lang="en">
+   <head>
+      <title>Bulb On Off</title>
+      
+      <style>
+      h1 {
+	text-align: center;
+
+
+
+
+	background-color:greenyellow;
+	margin-right: 5px;
+	margin-left:5px;
+	padding-right:5px;
+	border-block-color:red;
+	border-radius: 10px;
+	height: 100px;
+	text-align:center;
+
+}
+
+
+}
+
+#body{
+    background-color:blue;
+    font-family:cursive;
+    text-align:center;
+    animation-name: none;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+
+} 
+
+
+#bulb {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 400px;
+	padding-top: 10px;
+	display:inline-block;
+	margin-left: 10px;
+	margin-right: auto;
+	width: 50%;
+}
+.myButton {
+	border-radius: 30px;
+	border: 3px solid blue;
+	display: inline-block;
+	cursor: pointer;
+	background: rgb(61, 228, 61);
+	color:whitesmoke;
+	font-family: Georgia;
+	font-size: 40px;
+	font-weight:bold;
+	padding: 10px 40px;
+	text-decoration:none
+	text-shadow: 2px 2px 7px #283466;
+	margin-left: 440px;
+	margin-top: 60px;
+}
+.myButton:hover {
+	background-color:green;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+.myButton1 {
+	border-radius: 30px;
+	border: 3px solid #030721;
+	display: inline-block;
+	cursor: pointer;
+	background: #8b0000;
+	color: #ffffff;
+	font-family: Georgia;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 10px 40px;
+	text-decoration:none
+	text-shadow: 2px 2px 7px #283466;
+	margin-left:20px;
+	margin-top:40px;
+}
+.myButton1:hover {
+	ba
+	position: relative;
+	top: 1px;
+}
+      </style>
+      <script> function bulbon() { document.getElementById("bulb").src="https://i.ibb.co/gvHcqVf/bulbonbyps1-1.png"; document.getElementById("bulbstatus").element.innerHTML = "Bulb in On Now!"; } function bulboff() { document.getElementById("bulb").src="https://i.ibb.co/7XVvrYP/bulboffbyps.png"; } </script> 
+   </head>
+   <body>
+	
+       
+
+      <div>
+         <h1><marque>Bulb On Off using html ,css and javascript by kritika</marque></h1>
+       
+         
+         <img id="bulb" src="https://i.ibb.co/7XVvrYP/bulboffbyps.png"> <input type="button" class="myButton" value="Bulb On" onclick="bulbon()"> <input type="button" class="myButton1" value="Bulb Off" onclick="bulboff()"> 
+            
+    
+            
+            </div>
+   </body>
+   
+</html>
